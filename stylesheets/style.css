@@ -1,0 +1,19 @@
+body {
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  color: #1B1B1B;
+}
+
+h1, h1 a {
+  margin-bottom: 0px;
+  color: #1B1B1B;
+  text-decoration: none;
+}
+
+.container {
+  width: 60%;
+  margin-left: 50px;
+}
+
+.subtle, .subtle a {
+  color: #aaa;
+}
