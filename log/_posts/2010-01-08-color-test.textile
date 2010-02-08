@@ -1,0 +1,39 @@
+---
+layout: post
+title: 01/08/2010
+---
+This is just a highlighting color test.  I prefer a high contrast on a dark background.
+
+{% highlight ruby %}
+module HasOneMilestone
+  # Notice: has_many_polymorphs are creating two associations for the base
+  # class including this module, for example TaskList.
+  # 1) has_many :schedules
+  # 2) has_many :milestones, :through => :schedules
+  #
+  # This module wraps the has_many relationship and looks more like a has_one
+  # relationship.  It's sort of like
+  #    has_one :milestone, :through => :schedules, :polymorphic => true
+
+  def milestone=(milestone)
+    transaction do 
+      self.schedules = []
+      self.milestones << milestone if milestone
+    end
+  end
+  
+  def milestone(reload = false)
+    self.milestones.first if self.milestones(reload)
+  end
+  
+  # This method must be called for milestone associations to be saved.  This is 
+  # because the record id must be generated before it can be associated with 
+  # a milestone.
+  def commit_milestone
+    m = Milestone.find(@milestone_id) unless @milestone_id.blank?
+    self.milestone = m
+  end
+
+end
+
+{% endhighlight %}

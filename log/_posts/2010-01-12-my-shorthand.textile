@@ -1,37 +1,31 @@
 ---
 layout: post
-title: How I write notes.
+title: 01/12/2010
 ---
-
 I have my own home grown way of taking notes. My goal is to use the same formatting for handwritten notes and text files.  I've tried plenty of tools like wikis and Things on the Mac but its hard to beat plain text.
 
 I've created some highlighting for this in Vim. Here is what it looks like.
 
-!/images/shorthand.png(highlighted shorthand)!
-
-Here is the text version.
-
-<pre>
-++ shorthand
-
-*section*
--item
--Done: completed item
-?question
-?favor option1 over option2
-  +favors option1
-  $favors option2
--[person] [askPerson] [date or time] [ file.txt ]
-# Comment.
--xxx xxx xxx #End of line comment.
-*Bookmark
-$unfavorable
-$ command-line
-  code
-<subsection>
-// Documentation.
-/**
- * Documentation.
- */
--subject: search mail archive for this subject
-</pre>
+<notextile>
+<div class="code">
+<font color="#ffcc00">++ shorthand</font><br>
+<br>
+<font color="#66ff00">*section*</font><br>
+-item<br>
+<font color="#aaaa77">-Done: completed item</font><br>
+<font color="#aaffff">?question</font><br>
+<font color="#aaffff">?favor option1 over option2</font><br>
+&nbsp;&nbsp;<font color="#33aa00">+favors option1</font><br>
+&nbsp;&nbsp;<font color="#ff6600">$favors option2</font><br>
+-<font color="#ff6600">[person] [askPerson] [date or time] [ file.txt ]</font><br>
+<font color="#9933cc"><i># Comment.</i></font><br>
+-xxx xxx xxx <font color="#9933cc"><i>#End of line comment.</i></font><br>
+<span style="background-color: #dd0805"><font color="#ffffff">*Bookmark</font></span><br>
+<font color="#ff6600">$unfavorable</font><br>
+<font color="#ff6600">$ command-line</font><br>
+&nbsp;&nbsp;code<br>
+&lt;subsection&gt;<br>
+// Documentation.<br>
+-subject: search mail archive for this subject<br>
+</div>
+</notextile>

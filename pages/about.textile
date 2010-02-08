@@ -2,4 +2,4 @@
 layout: default
 title: What's this all about.
 ---
-This site is mostly keep track of things I've learned. It makes then searchable by search engines.  It also gives me a way to explain to poeople what I've been working on.
+This site is mostly keep track of things I've learned. It makes then searchable by search engines.  It also gives me a way to explain to people what I've been working on.
