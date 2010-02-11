@@ -2,7 +2,7 @@
 layout: post
 title: 01/12/2010
 ---
-I have my own home grown way of taking notes. My goal is to use the same formatting for handwritten notes and text files.  I've tried plenty of tools like wikis and Things on the Mac but its hard to beat plain text.
+*Shorthand:* I have my own home grown way of taking notes. My goal is to use the same formatting for handwritten notes and text files.  I've tried plenty of tools like wikis and Things on the Mac but its hard to beat plain text.
 
 I've created some highlighting for this in Vim. Here is what it looks like.
 

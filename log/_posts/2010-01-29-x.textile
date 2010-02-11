@@ -8,6 +8,6 @@ title: 01/29/2010
   :set spell
 </pre>
 
-*Conquering Spaces:* For the longest time I was dissatified with how spaces on mac would switch to an application that wasn't in the current workspace. Then I would switch the setting that would turn that off but it would stick make that program the active program in the os title bar but not give you a window to it at all.  Then I found a setting the in the key mappings called "move focus to active or next window".  
+*Conquering Spaces:* For the longest time I was dissatisfied with how spaces on mac would switch to an application that wasn't in the current workspace. Then I would switch the setting that would turn that off but it would stick make that program the active program in the OS title bar but not give you a window to it at all.  Then I found a setting the in the key mappings called "move focus to active or next window".  
 
 This is what I wanted it will cycle only the apps in the current workspace. I didn't like the default keymapping.  I have liked to make it ^tab but that wasn't possible.  So I settled for ^`. It's like doing a ^tab but just a little bit higher.

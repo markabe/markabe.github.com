@@ -2,7 +2,7 @@
 layout: post
 title: 01/08/2010
 ---
-This is just a highlighting color test.  I prefer a high contrast on a dark background.
+*Color Test:* This is just a highlighting color test.  I prefer a high contrast on a dark background.
 
 {% highlight ruby %}
 module HasOneMilestone
