@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll && rsync -avz --delete _site/ pointsim@railsflavored.com:~/public_html/site

@@ -1,0 +1,14 @@
+---
+layout: post
+title: 02/22/2010
+---
+
+*Gathering Logs:* I keep my notes in dated folders like this 
+
+<pre>2010/02/_log.txt</pre> 
+
+It is a temporal style system where things can slowly fade into history but are still searchable and readily retrievable.  When I want to browse through my log notes I just run this.
+
+<pre>find . -name \_log.txt | xargs cat | less</pre>
+
+Find is recursive by default.  The xargs tips the stack of filenames on its side for the cat command. And less gives me vim-like navigability.  Couple this with an alias and I've got an easy way to go back in time.

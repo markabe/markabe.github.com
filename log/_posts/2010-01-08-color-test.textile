@@ -30,8 +30,7 @@ module HasOneMilestone
   # because the record id must be generated before it can be associated with 
   # a milestone.
   def commit_milestone
-    m = Milestone.find(@milestone_id) unless @milestone_id.blank?
-    self.milestone = m
+    self.milestone = Milestone.find(@milestone_id) unless @milestone_id.blank?
   end
 
 end

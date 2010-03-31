@@ -1,6 +1,9 @@
 /* Fruity style - http://pygments.org/demo/706/?style=fruity */
 
-.highlight { padding: 0.5em 1em; margin-bottom: 1em; font-family: 'monaco', monospace; line-height: 1.1em; overflow: auto; }
+.highlight { padding: 0px; margin-bottom: 1em; font-family: 'monaco', monospace; line-height: 1.1em; overflow: auto; 
+  padding: 10px;
+  border: medium double #aaa;
+}
 .highlight .hll { background-color: #333333 }
 .highlight  { background: #111111; color: #ffffff }
 .highlight .c { color: #008800; font-style: italic; background-color: #0f140f } /* Comment */

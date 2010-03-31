@@ -5,7 +5,7 @@ title: 01/29/2010
 *Vim spellcheck:* Vim has a pretty good spell checker that even draws dashed underlines.  To spin it up run
 
 <pre>
-  :set spell
+:set spell
 </pre>
 
 *Conquering Spaces:* For the longest time I was dissatisfied with how spaces on mac would switch to an application that wasn't in the current workspace. Then I would switch the setting that would turn that off but it would stick make that program the active program in the OS title bar but not give you a window to it at all.  Then I found a setting the in the key mappings called "move focus to active or next window".  
