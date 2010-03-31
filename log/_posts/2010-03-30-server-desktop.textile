@@ -1,0 +1,29 @@
+---
+layout: post
+title: 03/30/2010
+---
+
+*Lightweight Desktop for Ubuntu Server:* When trying to incorporate Linux into an environment dominated by Windows it helps to do what you can to smooth the transition.  One way to do this is to give the even the server a desktop environment.  
+
+Now you most likely don't want the full workstation desktop since it has tons of unnecessary programs for a server like OpenOffice. Here are some packages that give you a basic desktop environment with some useful tools.  
+
+This is a single command but I've broke it across multiple lines for readability.
+
+<pre>
+  sudo apt-get install 
+  compiz-gnome 
+  firefox 
+  gdm 
+  gnome-core 
+  gnome-media 
+  gnome-system-monitor 
+  gnome-system-tools 
+  gnome-volume-manager 
+  gnome-utils 
+  gnome-app-install 
+  gnome-applets 
+  synaptic 
+  sysv-rc-conf
+  ubuntu-artwork 
+  xorg 
+</pre>
