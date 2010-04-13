@@ -2,4 +2,4 @@
 layout: default
 title: What's this all about.
 ---
-This site is mostly keep track of things I've learned. It makes then searchable by search engines.  It also gives me a way to explain to people what I've been working on.
+This is my personal knowledge base. I've been a long time user of "Wikidpad":http://wikidpad.sourceforge.net/ and have loved it.  But I decided to utilize the search engines of world to help me dig through my past discoveries. Perhaps others will find some use of this as well.

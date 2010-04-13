@@ -1,0 +1,15 @@
+---
+layout: post
+title: 04/12/2010
+---
+
+*Ubuntu and Github keys:* I use a RSA key with my Mac to authenticate with Github but with Ubuntu it would never seem to take.  Generating a DSA key did the trick however.
+
+*Zsh:* I'm finally riding the zshell train.  I had bookmarked this "set of scripts":http://github.com/robbyrussell/oh-my-zsh a long time ago but have finally made the switch.  The completions and aliases are fun to use as well as time savers.
+
+*Hardlink:* Warning, Windows tip here. Hardlink is similar to symbolic linking in Unix. However they decided to reverse the order of the arguments for some reason. There are also some odd flags to designate the source and target.
+
+<pre>
+  hardlink /l:link_file_name /t:target_file_name
+  hardlink /l:.gitignore /t:tools/etc/gitignore
+</pre>
