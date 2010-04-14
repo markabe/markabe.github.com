@@ -18,6 +18,10 @@ h1, h1 a {
   margin-left: 50px;
 }
 
+.intro {
+  margin-bottom: 30px;
+}
+
 .subtle, .subtle a {
   color: #aaa;
 }
@@ -36,11 +40,14 @@ h1, h1 a {
   padding: 0px;
 }
 
-
 pre {
   padding: 10px;
   border: thin dashed #aaa;
   color: #888;
   font-size: 15px;
   font-weight: bold;
+}
+
+.post {
+  margin-bottom: 35px;
 }
